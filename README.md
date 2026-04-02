@@ -1,8 +1,25 @@
-# Graph-Based Exploration Game Engine - Data Structures Project
+# Graph-Based Exploration Game Engine
 
-A flexible, text-based dungeon crawler game engine built in C++ featuring graph-based map exploration, turn-based combat, and custom data structure implementations. The core system is theme-agnostic and supports any custom scenario through configuration files. Included themes: Batman (Gotham City) and Spider-Man (NY) variants.
+A text-based dungeon crawler game engine built in C++ featuring graph-based map exploration, turn-based combat, and custom data structure implementations. The system supports custom scenarios through configuration files and includes example Batman and Spider-Man themed maps.
 
----
+## Collaboration
+
+This project was developed collaboratively as a final project for the Data Structures and Algorithms course.
+
+**My contributions focused on:**
+- contributing to implementation and integration of graph-based exploration logic
+- working with custom data structures including linked lists, queues, and graph representations
+- contributing to BFS and Dijkstra-based traversal/pathfinding functionality
+- contributing to modular organization of the exploration and game-state flow
+- documenting the project structure and technical design
+
+Developed with:
+- Ricardo Morán Ávila
+- Joaquín Ruenes Hernández
+
+## My Role
+
+My main work in this project involved the data structures and exploration side of the engine, especially graph representation, traversal logic, and pathfinding-related functionality. I also contributed to the modular structure of the game engine and technical documentation.
 
 ## Table of Contents
 
@@ -17,7 +34,7 @@ A flexible, text-based dungeon crawler game engine built in C++ featuring graph-
 - [File Formats](#file-formats)
 - [Class Documentation](#class-documentation)
 - [Algorithms](#algorithms)
-- [Authors](#authors)
+- [Team](#team)
 
 ---
 
@@ -65,7 +82,7 @@ This is a final project for the Data Structures and Algorithms course that imple
 ## Project Structure
 
 ```
-Proyecto_Final_DataStructures/
+graph-based-exploration-game-engine/
 │
 ├── main.cpp                          # Entry point - initializes and runs the game
 │
@@ -187,7 +204,7 @@ Proyecto_Final_DataStructures/
 
 ```bash
 # Navigate to project directory
-cd "/Users/escuela/Documents/Tercer Semestre IRS/Estructura de Datos/Proyecto_Final_DataStructures"
+cd graph-based-exploration-game-engine
 
 # Compile with g++
 g++ main.cpp -o main
@@ -504,15 +521,16 @@ This file captures gameplay statistics regardless of theme.
 
 ---
 
-## Authors
+## Team
 
-- Ricardo Morán Ávila (A01661056)
-- Joaquín Ruenes Hernández (A01661196)
-- **Course**: Data Structures and Algorithms (TC1031)
-- **Semester**: Third Semester
-- **B.S.**: Robotics and Digital Systems Engineering
-- **Institution**: Instituto Tecnológico y de Estudios Superiores de Monterrey Campus Ciudad de México 
-- **Repository**: [JoaquinRuenesH/Proyecto_Final_DataStructures](https://github.com/JoaquinRuenesH/Proyecto_Final_DataStructures)
+Developed collaboratively by:
+- Ricardo Morán Ávila
+- Joaquín Ruenes Hernández
+
+Course: Data Structures and Algorithms (TC1031)  
+Semester: Third Semester  
+B.S. in Robotics and Digital Systems Engineering  
+Tecnológico de Monterrey, Campus Ciudad de México
 
 ---
 
@@ -559,10 +577,16 @@ This file captures gameplay statistics regardless of theme.
 
 ---
 
+## Improvements in This Version
+
+- reorganized and clarified technical documentation
+- updated repository structure and setup instructions for easier reuse
+- adapted project presentation to clearly reflect collaborative development and individual contributions
+
 ## License
 
 This project is an academic assignment for educational purposes.
 
 ---
 
-**Last Updated**: December 2025
+**Last Updated**: April 2026
