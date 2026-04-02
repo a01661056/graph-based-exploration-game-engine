@@ -1,0 +1,37 @@
+#pragma once
+#include "Graph.h"
+#include "Hero.h"
+#include "CombatSystem.h"
+
+template <typename T>
+class GameSave {
+private:
+    Hero* hero;
+    Graph<T>* map;
+    Square<T>* currentSquare;
+    int moves;
+    T squaresVisited;
+    string currentGameStatus;
+    bool win;
+    bool gameOver;
+    string lastMonster;
+    bool fightMonster();
+    bool treasureCheck();
+public:
+    GameSave(Hero* h, Graph<T>* map);
+    void showNeighbors();
+    void showSquares();
+    bool move(int index);
+    void move(const T& nameSquare);
+    void printCheatBFS();
+    void printDijkstra();
+    void showGameStatus();
+    void saveCurrentGameStatus();
+    string getCurrentGameStatus();
+    string getLastMonster();
+    Square<T>* getCurrentSquare();
+    bool getWin();
+    bool isGameOver();
+};
+
+#include "GameSave.tpp"
